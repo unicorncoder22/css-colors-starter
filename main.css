@@ -65,22 +65,27 @@ footer {
 
   #column-1 {
     background-color: #7CFC00;
+
   }
 
   #column-2 {
     background-color: #90EE90;
+
   }
 
   #column-3 {
     background-color: #00FF00;
+    width:100%
   }
 
   footer {
     background-color: #ADFF2F;
   }
 
+  .col-3{
+    width:50%;
+  }
 }
-
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
@@ -103,5 +108,7 @@ footer {
   footer {
     background-color: #C71585;
   }
-
+.col-3 {
+  width: 33.3%;
+}
 }
